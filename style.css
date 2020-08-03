@@ -1,3 +1,12 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 h1{
     color: brown;
+}
+.znak img{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25%;
 }
