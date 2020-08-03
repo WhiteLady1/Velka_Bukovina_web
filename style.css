@@ -1,12 +1,39 @@
 body{
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    justify-content: center;
 }
-h1{
-    color: brown;
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-image: url(image/head_fire.jpg);
+}
+.menu h1{
+    font-size: 25px;
+    order: -1;
+}
+.menu_polozky{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.menu_polozky ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+.submenu{
+    display: none;
 }
 .znak img{
     border: 1px solid white;
     border-radius: 50%;
-    width: 25%;
+    width: 115px;
 }
