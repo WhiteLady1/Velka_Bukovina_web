@@ -11,6 +11,8 @@ body{
     border-bottom: 1px solid gray;
     text-align: center;
     background-image: url(image/head_fire.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .menu h1{
     font-size: 25px;
