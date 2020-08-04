@@ -15,20 +15,29 @@ body{
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(245, 245, 245, 0.4);
     position: relative;
+
+}
+.vypln{
+    position: absolute;
+    background-color:#DD4132;
+    opacity: 75%;
+    width: 100%;
+    height: 150px;
+    top: 0px;
 }
 .menu h1{
     font-size: 30px;
     font-weight: 500;
-    color: #DD4132;
+    color: whitesmoke;
     margin: 0;
     padding-top: 15px;
-    padding-bottom: 20px;
+    position: relative;
 }
 .znak img{
     border: 1.5px solid white;
     border-radius: 50%;
     width: 115px;
-    position: absolute;
+    position: relative;
 }
 .menu_polozky{
     display: flex;
