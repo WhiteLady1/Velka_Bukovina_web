@@ -13,11 +13,12 @@ body{
     background-image: url(image/head_fire.jpg);
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 1000px rgba(227, 228, 211, 0.5);
+    box-shadow: inset 0 0 0 1000px rgba(245, 245, 245, 0.4);
 }
 .menu h1{
     font-size: 25px;
     order: -1;
+    color: #9E1030;
 }
 .menu_polozky{
     display: flex;
@@ -38,11 +39,14 @@ body{
 }
 .menu_polozky a{
     text-decoration: none;
-    color: black;
-    border: 1px solid white;
+    color: whitesmoke;
+    border: 1px solid #DD4132;
     border-radius: 5px;
     padding: 5px;
     width: 150px;
+    background-color: #DD4132;
+    opacity: 90%;
+    box-shadow: 1px 1px 1px 1px gray;
 }
 .submenu{
     display: none;
