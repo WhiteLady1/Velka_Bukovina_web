@@ -20,22 +20,19 @@ body{
     font-size: 30px;
     font-weight: 500;
     color: #DD4132;
-    order: -1;
     margin: 0;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
-.cara{
+.znak img{
+    border: 1.5px solid white;
+    border-radius: 50%;
+    width: 115px;
     position: absolute;
-    border: 2px solid white;
-    width: 100px;
-    top: 100px;
-}
 }
 .menu_polozky{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-
 }
 .menu_polozky ul{
     display: flex;
@@ -63,9 +60,4 @@ body{
 }
 .submenu{
     display: none;
-}
-.znak img{
-    border: 1.5px solid white;
-    border-radius: 50%;
-    width: 115px;
 }
